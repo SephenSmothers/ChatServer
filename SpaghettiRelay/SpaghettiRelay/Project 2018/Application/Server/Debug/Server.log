@@ -1,2 +1,7 @@
-﻿  Server.cpp
-  Server.vcxproj -> C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\SpaghettiRelay\SpaghettiRelay\Project 2018\Debug\Server.dll
+﻿  platform.cpp
+  Server.cpp
+  ServerWrapper.cpp
+  Generating Code...
+  LINK : C:\Users\sephe\Desktop\FS Classes\Programing\ComputerNetworks\CNEProject\ChatServer\SpaghettiRelay\SpaghettiRelay\Project 2018\Debug\Server.dll not found or not built by the last incremental link; performing full link
+     Creating library C:\Users\sephe\Desktop\FS Classes\Programing\ComputerNetworks\CNEProject\ChatServer\SpaghettiRelay\SpaghettiRelay\Project 2018\Debug\Server.lib and object C:\Users\sephe\Desktop\FS Classes\Programing\ComputerNetworks\CNEProject\ChatServer\SpaghettiRelay\SpaghettiRelay\Project 2018\Debug\Server.exp
+  Server.vcxproj -> C:\Users\sephe\Desktop\FS Classes\Programing\ComputerNetworks\CNEProject\ChatServer\SpaghettiRelay\SpaghettiRelay\Project 2018\Debug\Server.dll
