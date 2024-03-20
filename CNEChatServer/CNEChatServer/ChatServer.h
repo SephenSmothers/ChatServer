@@ -1,6 +1,6 @@
 #pragma once
 
-#include "CLientHandler.h"
+#include "Server.h"
 
 class ChatServer
 {
@@ -11,11 +11,14 @@ public:
 	void WelcomeMessage();
 	void PromtMessage();
 	void GetServerSettings();
+	bool Run();
+	void Stop();
+
 
 private:
+
 	Server server; 
-	CLientHandler cHandle;
-	uint16_t port = 0;
-	char commandChar = '~';
+	ClientHandler cHandle;
+	
 };
 

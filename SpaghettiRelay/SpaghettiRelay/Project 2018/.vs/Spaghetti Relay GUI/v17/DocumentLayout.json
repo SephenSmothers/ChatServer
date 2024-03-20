@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC979ED5-F677-40AD-B998-322C06D9C8E0}|Application\\Server\\Server.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\platform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CC979ED5-F677-40AD-B998-322C06D9C8E0}|Application\\Server\\Server.vcxproj|solutionrelative:Application\\platform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F7519D3F-DCB2-475C-B39F-DE7DB20ECE75}|Interface\\Spaghetti Relay GUI.csproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\interface\\spaghettiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7519D3F-DCB2-475C-B39F-DE7DB20ECE75}|Interface\\Spaghetti Relay GUI.csproj|solutionrelative:interface\\spaghettiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7519D3F-DCB2-475C-B39F-DE7DB20ECE75}|Interface\\Spaghetti Relay GUI.csproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\interface\\spaghettiform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7519D3F-DCB2-475C-B39F-DE7DB20ECE75}|Interface\\Spaghetti Relay GUI.csproj|solutionrelative:interface\\spaghettiform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC979ED5-F677-40AD-B998-322C06D9C8E0}|Application\\Server\\Server.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\Server\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CC979ED5-F677-40AD-B998-322C06D9C8E0}|Application\\Server\\Server.vcxproj|solutionrelative:Application\\Server\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC979ED5-F677-40AD-B998-322C06D9C8E0}|Application\\Server\\Server.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\Server\\Server.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CC979ED5-F677-40AD-B998-322C06D9C8E0}|Application\\Server\\Server.vcxproj|solutionrelative:Application\\Server\\Server.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{96EC9D38-5632-4E11-A978-E7A231C4FF1A}|Application\\Client\\Client\\Client.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\Client\\Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{96EC9D38-5632-4E11-A978-E7A231C4FF1A}|Application\\Client\\Client\\Client.vcxproj|solutionrelative:Application\\Client\\Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7519D3F-DCB2-475C-B39F-DE7DB20ECE75}|Interface\\Spaghetti Relay GUI.csproj|c:\\users\\sephe\\desktop\\fs classes\\programing\\computernetworks\\cneproject\\chatserver\\spaghettirelay\\spaghettirelay\\project 2018\\interface\\spaghettiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7519D3F-DCB2-475C-B39F-DE7DB20ECE75}|Interface\\Spaghetti Relay GUI.csproj|solutionrelative:interface\\spaghettiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7519D3F-DCB2-475C-B39F-DE7DB20ECE75}|Interface\\Spaghetti Relay GUI.csproj|c:\\users\\sephe\\desktop\\fs classes\\programing\\computernetworks\\cneproject\\chatserver\\spaghettirelay\\spaghettirelay\\project 2018\\interface\\spaghettiform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7519D3F-DCB2-475C-B39F-DE7DB20ECE75}|Interface\\Spaghetti Relay GUI.csproj|solutionrelative:interface\\spaghettiform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC979ED5-F677-40AD-B998-322C06D9C8E0}|Application\\Server\\Server.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\Server\\Server.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CC979ED5-F677-40AD-B998-322C06D9C8E0}|Application\\Server\\Server.vcxproj|solutionrelative:Application\\Server\\Server.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96EC9D38-5632-4E11-A978-E7A231C4FF1A}|Application\\Client\\Client\\Client.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\Client\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{96EC9D38-5632-4E11-A978-E7A231C4FF1A}|Application\\Client\\Client\\Client.vcxproj|solutionrelative:Application\\Client\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC979ED5-F677-40AD-B998-322C06D9C8E0}|Application\\Server\\Server.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\platform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CC979ED5-F677-40AD-B998-322C06D9C8E0}|Application\\Server\\Server.vcxproj|solutionrelative:Application\\platform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,52 +46,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SpaghettiForm.cs",
-              "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Interface\\SpaghettiForm.cs",
-              "RelativeDocumentMoniker": "Interface\\SpaghettiForm.cs",
-              "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Interface\\SpaghettiForm.cs",
-              "RelativeToolTip": "Interface\\SpaghettiForm.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAgwJUAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T03:21:10.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SpaghettiForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Interface\\SpaghettiForm.Designer.cs",
-              "RelativeDocumentMoniker": "Interface\\SpaghettiForm.Designer.cs",
-              "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Interface\\SpaghettiForm.Designer.cs",
-              "RelativeToolTip": "Interface\\SpaghettiForm.Designer.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAAAJ0AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T03:20:40.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "platform.h",
               "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\platform.h",
               "RelativeDocumentMoniker": "Application\\platform.h",
               "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\platform.h",
               "RelativeToolTip": "Application\\platform.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAVAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-19T01:01:29.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "SpaghettiForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Interface\\SpaghettiForm.Designer.cs",
+              "RelativeDocumentMoniker": "Interface\\SpaghettiForm.Designer.cs",
+              "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Interface\\SpaghettiForm.Designer.cs",
+              "RelativeToolTip": "Interface\\SpaghettiForm.Designer.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAAAOsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T03:20:40.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Client.h",
               "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\Client\\Client.h",
               "RelativeDocumentMoniker": "Application\\Client\\Client.h",
               "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\Client\\Client.h",
               "RelativeToolTip": "Application\\Client\\Client.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-07T18:44:44.597Z",
               "EditorCaption": ""
@@ -104,14 +91,14 @@
               "RelativeDocumentMoniker": "Application\\Client\\Client.cpp",
               "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\Client\\Client.cpp",
               "RelativeToolTip": "Application\\Client\\Client.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAABwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-07T18:44:49.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Server.h",
               "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\Server\\Server.h",
               "RelativeDocumentMoniker": "Application\\Server\\Server.h",
@@ -124,15 +111,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Server.cpp",
               "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\Server\\Server.cpp",
               "RelativeDocumentMoniker": "Application\\Server\\Server.cpp",
               "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Application\\Server\\Server.cpp",
               "RelativeToolTip": "Application\\Server\\Server.cpp",
-              "ViewState": "AQIAABAAAAAAAAAAAAAlwCAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-07T18:43:45.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpaghettiForm.cs",
+              "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Interface\\SpaghettiForm.cs",
+              "RelativeDocumentMoniker": "Interface\\SpaghettiForm.cs",
+              "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\SpaghettiRelay\\SpaghettiRelay\\Project 2018\\Interface\\SpaghettiForm.cs",
+              "RelativeToolTip": "Interface\\SpaghettiForm.cs",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAqwLUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T03:21:10.642Z",
               "EditorCaption": ""
             }
           ]

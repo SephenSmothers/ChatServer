@@ -1,7 +1,7 @@
 #pragma once
-#include "MessageHandler.h"
+#include "Defines.h"
 
-class CLientHandler
+class ClientHandler
 {
 public:
 	//CLientHandler();
@@ -10,10 +10,11 @@ public:
 	void DisplayPromtMessage();
 	int GetClientCap();
 	void SetClientCap(int _cap);
+	int ParseMessage(char* message);
+
 
 private:
-	MessageHandler mHandle;
-//	Server* serverPtr;
+
 	int chatCapacity = 0;
 
 };

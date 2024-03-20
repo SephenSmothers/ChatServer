@@ -129,16 +129,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ChatServer.cpp" />
-    <ClCompile Include="CLientHandler.cpp" />
+    <ClCompile Include="ClientHandler.cpp" />
     <ClCompile Include="CNEChatServer.cpp" />
-    <ClCompile Include="MessageHandler.cpp" />
     <ClCompile Include="Server.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ChatServer.h" />
     <ClInclude Include="CLientHandler.h" />
     <ClInclude Include="Defines.h" />
-    <ClInclude Include="MessageHandler.h" />
     <ClInclude Include="Server.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
