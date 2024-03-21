@@ -2,12 +2,17 @@
 
 //ChatServer::ChatServer()
 //{
-//    cHandle;
+//    timeOut.tv_sec = 5;
+//    FD_ZERO(&masterSet);
+//    FD_ZERO(&readSet);
+//    FD_ZERO(&writeSet);
+//    FD_ZERO(&exceptSet);
+//    FD_SET(server.sListenSocket, &masterSet);
 //}
 
 void ChatServer::Init()
 {
-	int errorCode = server.init(port);
+	int errorCode = server.init();
 
 	switch (errorCode)
 	{
@@ -21,27 +26,49 @@ void ChatServer::Init()
 		break;
 	case SETUP_ERROR:
 
+        server.stop();
+
 		break;
 	case BIND_ERROR:
+
+        server.stop();
 
 		break;
 	case CONNECT_ERROR:
 
+        server.stop();
+
 		break;
 	case SHUTDOWN:
+
+        server.stop();
 
 		break;
 	default:
 
 		server.stop();
+
 		break;
 	}
 }
 
+bool ChatServer::Run()
+{
+    if (server.Run(cHandle) != SUCCESS)
+        return false;
+    
+    return true; 
+}
+
+void ChatServer::Stop()
+{
+    server.stop();
+}
+
 void ChatServer::WelcomeMessage()
 {
-   char test[100] = "Hello did you get this?";
-   int num = server.sendMessage(test, sizeof(test));
+   //char test[100] = "Hello did you get this?";
+   //int num = server.sendMessage(test, std::strlen(test));
 
 
     //int result = 0;
@@ -86,33 +113,36 @@ void ChatServer::PromtMessage()
 
 void ChatServer::GetServerSettings()
 {
-    int chatCapacity;
 
-    // Prompt for TCP Port number
-    std::cout << "Enter TCP Port number (default is 31337): ";
-    std::cin >> port;
-    std::cin.ignore();
-    if (std::cin.fail()) {
-        std::cin.clear();
-        port = 31337;
-    }
+    server.SetServerSettings(cHandle);
 
-    // Prompt for chat capacity
-    std::cout << "Enter chat capacity: ";
-    std::cin >> chatCapacity;
-    cHandle.SetClientCap(chatCapacity);
-    std::cin.ignore();
-    if (std::cin.fail()) {
-        std::cin.clear();
-        cHandle.SetClientCap(10);
-    }
+    //int chatCapacity;
 
-    // Prompt for command character
-    std::cout << "Enter command character (default is '~'): ";
-    std::cin >> commandChar;
-    std::cin.ignore();
-    if (std::cin.fail()) {
-        std::cin.clear();
-        commandChar = '~';
-    }
+    //// Prompt for TCP Port number
+    //std::cout << "Enter TCP Port number (default is 31337): ";
+    //std::cin >> port;
+    //std::cin.ignore();
+    //if (std::cin.fail()) {
+    //    std::cin.clear();
+    //    port = 31337;
+    //}
+
+    //// Prompt for chat capacity
+    //std::cout << "Enter chat capacity: ";
+    //std::cin >> chatCapacity;
+    //cHandle.SetClientCap(chatCapacity);
+    //std::cin.ignore();
+    //if (std::cin.fail()) {
+    //    std::cin.clear();
+    //    cHandle.SetClientCap(10);
+    //}
+
+    //// Prompt for command character
+    //std::cout << "Enter command character (default is '~'): ";
+    //std::cin >> commandChar;
+    //std::cin.ignore();
+    //if (std::cin.fail()) {
+    //    std::cin.clear();
+    //    commandChar = '~';
+    //}
 }

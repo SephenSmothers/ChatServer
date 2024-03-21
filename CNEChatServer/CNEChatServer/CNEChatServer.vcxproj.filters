@@ -24,10 +24,7 @@
     <ClCompile Include="ChatServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CLientHandler.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MessageHandler.cpp">
+    <ClCompile Include="ClientHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -42,9 +39,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CLientHandler.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MessageHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
