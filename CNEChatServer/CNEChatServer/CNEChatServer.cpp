@@ -8,7 +8,7 @@ int main()
     ChatServer chat;
     std::string serverInput = " ";
 
-    chat.PromtMessage();
+    chat.WelcomeMessage();
     chat.GetServerSettings();
     chat.Init();
 

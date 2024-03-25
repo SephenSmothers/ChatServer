@@ -89,7 +89,7 @@ int Server::Run(ClientHandler _handel)
 		else
 		{
 			std::cout << "New Client Has Joined The Chat" << std::endl;
-			
+
 			int promtError = sendMessage(loginPrompt, std::strlen(loginPrompt) + 1, sComSocket);
 		}
 	}
@@ -101,11 +101,13 @@ int Server::Run(ClientHandler _handel)
 
 		if (readSet.fd_array[i] != sListenSocket)
 		{
+
+
 			int readError = readMessage(readBuffer, 256, readSet.fd_array[i]);
 
 			if (readError == SUCCESS)
 			{
-				int result = _handel.ParseMessage(readBuffer);
+				int result = _handel.ParseMessage(readBuffer, readSet.fd_array[i], commandChar);
 
 
 				switch (result)
@@ -127,31 +129,30 @@ int Server::Run(ClientHandler _handel)
 				case HELP:
 
 					sendError = sendMessage(helpPrompt, std::strlen(helpPrompt), readSet.fd_array[i]);
-					//memset(readBuffer, 0, sizeof(readBuffer));
 
 					break;
 				case INVALID_COMMAND:
 					
 					sendError = sendMessage(invalidPrompt, std::strlen(invalidPrompt), readSet.fd_array[i]);
-					//memset(readBuffer, 0, sizeof(readBuffer));
 
 					break;
 				case NOT_LOGGED_IN:
 					
 					sendError = sendMessage(loginErrorPrompt, std::strlen(loginErrorPrompt), readSet.fd_array[i]);
-					//memset(readBuffer, 0, sizeof(readBuffer));
+
+					break;
+
+				case NEW_USER:
+
+					//sendError = sendMessage(loginErrorPrompt, std::strlen(loginErrorPrompt), readSet.fd_array[i]);
 
 					break;
 				default:
 				
 					sendError = sendMessage(defaultPrompt, std::strlen(defaultPrompt), readSet.fd_array[i]);
-					//memset(readBuffer, 0, sizeof(readBuffer));
 
 					break;
 				}
-
-				//std::cout << readBuffer << std::endl;
-
 			}
 		}
 	}

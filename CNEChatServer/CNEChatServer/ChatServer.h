@@ -6,7 +6,7 @@ class ChatServer
 {
 public:
 
-	//ChatServer();
+	ChatServer(){ }
 	void Init();
 	void WelcomeMessage();
 	void PromtMessage();
