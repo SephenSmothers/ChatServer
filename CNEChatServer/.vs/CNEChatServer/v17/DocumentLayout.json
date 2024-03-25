@@ -58,8 +58,7 @@
               "RelativeToolTip": "CNEChatServer\\CLientHandler.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-19T03:57:54.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T03:57:54.993Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "CNEChatServer\\ClientHandler.cpp",
               "ViewState": "AQIAAAwAAAAAAAAAAAAlwCUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-19T03:56:50.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T03:56:50.726Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "CNEChatServer\\Defines.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-19T03:15:27.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T03:15:27.105Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "CNEChatServer\\ChatServer.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-19T01:30:39.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:30:39.21Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "CNEChatServer\\ChatServer.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-19T01:31:57.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:31:57.759Z"
             },
             {
               "$type": "Document",
@@ -123,8 +118,7 @@
               "RelativeToolTip": "CNEChatServer\\Server.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-19T01:00:55.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:00:55.681Z"
             },
             {
               "$type": "Document",
@@ -134,7 +128,7 @@
               "RelativeDocumentMoniker": "CNEChatServer\\Server.cpp",
               "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.cpp",
               "RelativeToolTip": "CNEChatServer\\Server.cpp",
-              "ViewState": "AQIAAI8AAAAAAAAAAAAAwJwAAAACAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAwJwAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-19T01:04:39.529Z",
               "EditorCaption": ""
@@ -149,8 +143,7 @@
               "RelativeToolTip": "CNEChatServer\\CNEChatServer.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-19T00:34:50.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T00:34:50.336Z"
             }
           ]
         }
