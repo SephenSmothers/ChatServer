@@ -90,7 +90,7 @@ int Server::Run(ClientHandler _handel)
 		{
 			std::cout << "New Client Has Joined The Chat" << std::endl;
 			
-			int promtError = sendMessage(loginPrompt, std::strlen(loginPrompt), sComSocket);
+			int promtError = sendMessage(loginPrompt, std::strlen(loginPrompt) + 1, sComSocket);
 		}
 	}
 
@@ -116,7 +116,7 @@ int Server::Run(ClientHandler _handel)
 					{
 						if (writeSet.fd_array[j] != sListenSocket && writeSet.fd_array[j] != readSet.fd_array[i])
 						{
-							sendMessage(readBuffer, std::strlen(readBuffer), writeSet.fd_array[j]);
+							sendMessage(readBuffer, std::strlen(readBuffer) + 1, writeSet.fd_array[j]);
 						}
 					}
 
