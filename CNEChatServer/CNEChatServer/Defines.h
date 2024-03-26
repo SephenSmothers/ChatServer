@@ -9,9 +9,9 @@
 #include <ws2tcpip.h>
 #pragma comment(lib, "Ws2_32.lib")
 #include "stdint.h"
+#include <string>
 #include <limits>
 #include <unordered_map>
-#include "Dictionary.h"
 
 #define MAX_USERNAME_LEN 32
 #define MAX_PASSWORD_LEN 32

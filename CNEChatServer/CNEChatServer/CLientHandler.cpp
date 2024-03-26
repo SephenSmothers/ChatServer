@@ -28,43 +28,40 @@ void ClientHandler::SetClientCap(int _cap)
 
 int ClientHandler::ParseMessage(char* message, int _id, char _commandChar)
 {
-	int code = INVALID_COMMAND;
+//	int code = INVALID_COMMAND;
 
 	if (CheckIfRegistered(_id) == false)
 		return NEW_USER;
-	//else
-	//	return OLD_USER;
+
 
 	if (CheckIfLoggedIn(_id) == false)
 		return NOT_LOGGED_IN;
-	//else
-	//	return LOGGED_IN;
 
 	if (message[0] == _commandChar)
 	{
-		if (strcmp(message, _commandChar + "register") == 0)
+		if (strncmp(message, _commandChar + "register", strlen(_commandChar + "register")) == 0)
 		{
 			if (CheckIfRegistered(_id) == true)
 				return OLD_USER;
 
-			code = NEW_USER;
+
+			return NEW_USER;
+			//code = NEW_USER;
 		}
-		else if (strcmp(message, _commandChar + "help") == 0)
-		{
-			code = HELP;
-		}
-		else if (strcmp(message, _commandChar + "login") == 0)
+		else if (strncmp(message, _commandChar + "help", strlen(_commandChar + "help")) == 0)
 		{
 
-			code = LOGGED_IN;
+			return HELP;
+			//code = HELP;
+		}
+		else if (strncmp(message, _commandChar + "login", strlen(_commandChar + "login")) == 0)
+		{
+			return LOGGED_IN;
+			//code = LOGGED_IN;
 		}
 	}
-	else
-	{
-		code == SEND_ALL;
-	}
 
-	return code;
+	return SEND_ALL;
 }
 
 bool ClientHandler::CheckIfRegistered(int _id)
@@ -130,4 +127,30 @@ int ClientHandler::LoginUser(int _socketId, const char* _username, const char* _
 	}
 
 	return code;
+}
+
+void ClientHandler::ParseRegisterUser(const char* message, char* username, char* password)
+{
+
+	char tempMessage[256];
+	strncpy(tempMessage, message, sizeof(tempMessage));
+
+	char* token = strtok(tempMessage, " ");
+
+	token = strtok(NULL, " ");
+
+	if (token != NULL)
+	{
+		strncpy(username, token, sizeof(username));
+		username[sizeof(username) - 1] = '\0'; // Ensure null-termination
+	}
+
+	// Next token should be the password
+	token = strtok(NULL, " ");
+
+	if (token != NULL)
+	{
+		strncpy(password, token, sizeof(password));
+		password[sizeof(password) - 1] = '\0'; // Ensure null-termination
+	}
 }

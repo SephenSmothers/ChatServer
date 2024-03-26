@@ -54,14 +54,14 @@ int Server::init(/*uint16_t port*/)
 	return SUCCESS;
 }
 
-int Server::Run(ClientHandler _handel)
+int Server::Run(ClientHandler& _handel)
 {
 	//different promts
 	char loginPrompt[] = "Hello please login using the \n *command char*login username password \n (Note: default command char is ~)";
 	char helpPrompt[] = "[SERVER] Hello please login using the \n *command char*login username password \n (Note: default command char is ~)";
 	char invalidPrompt[] = "[SERVER] INVALID COMMAND";
 	char loginErrorPrompt[] = "[SERVER] Please login to send messages to other users.";
-	char defaultPrompt[] = "[SERVER] There was an error with your maessage, please try again.";
+	char defaultPrompt[] = "[SERVER] There was an error with your message, please try again.";
 	int errorCode = SUCCESS;
 
 	readSet = masterSet;
@@ -108,7 +108,7 @@ int Server::Run(ClientHandler _handel)
 			if (readError == SUCCESS)
 			{
 				int result = _handel.ParseMessage(readBuffer, readSet.fd_array[i], commandChar);
-
+				int sockID = readSet.fd_array[i];
 
 				switch (result)
 				{
@@ -128,23 +128,35 @@ int Server::Run(ClientHandler _handel)
 					break;
 				case HELP:
 
-					sendError = sendMessage(helpPrompt, std::strlen(helpPrompt), readSet.fd_array[i]);
+					sendError = sendMessage(helpPrompt, std::strlen(helpPrompt) + 1, readSet.fd_array[i]);
 
 					break;
 				case INVALID_COMMAND:
 					
-					sendError = sendMessage(invalidPrompt, std::strlen(invalidPrompt), readSet.fd_array[i]);
+					sendError = sendMessage(invalidPrompt, std::strlen(invalidPrompt) + 1, readSet.fd_array[i]);
 
 					break;
 				case NOT_LOGGED_IN:
 					
-					sendError = sendMessage(loginErrorPrompt, std::strlen(loginErrorPrompt), readSet.fd_array[i]);
+					sendError = sendMessage(loginErrorPrompt, std::strlen(loginErrorPrompt) + 1, readSet.fd_array[i]);
 
 					break;
 
 				case NEW_USER:
 
-					//sendError = sendMessage(loginErrorPrompt, std::strlen(loginErrorPrompt), readSet.fd_array[i]);
+					char username[256];
+					char password[256];
+
+					if (strncmp(readBuffer, (std::string(&commandChar) + "register").c_str(), strlen(&commandChar) + strlen("register")) != 0)
+					{
+						sendError = sendMessage(invalidPrompt, std::strlen(invalidPrompt) + 1, readSet.fd_array[i]);
+						break;
+					}
+					else
+					{
+						_handel.ParseRegisterUser(readBuffer, username, password);
+						_handel.RegisterUser(sockID, username, password);
+					}
 
 					break;
 				default:

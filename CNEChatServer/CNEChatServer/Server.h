@@ -6,7 +6,7 @@ class Server
 public:
 	Server();
 	int init(/*uint16_t port*/);
-	int Run(ClientHandler _handel);
+	int Run(ClientHandler& _handel);
 	int readMessage(char* buffer, int32_t size, SOCKET& socket);
 	int sendMessage(char* data, int32_t length, SOCKET& socket);
 	int tcp_send_whole(SOCKET skSocket, const char* data, uint16_t length);

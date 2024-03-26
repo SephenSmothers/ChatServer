@@ -25,6 +25,7 @@ public:
 	User* FindUser(int _id);
 	void RegisterUser(int _socketId, const char* _username, const char* _password);
 	int LoginUser(int _socketId, const char* _username, const char* _password);
+	void ParseRegisterUser(const char* message, char* username, char* password);
 
 
 private:
