@@ -57,11 +57,13 @@ int Server::init(/*uint16_t port*/)
 int Server::Run(ClientHandler& _handel)
 {
 	//different promts
-	char loginPrompt[] = "Hello please login using the \n *command char*login username password \n (Note: default command char is ~)";
-	char helpPrompt[] = "[SERVER] Hello please login using the \n *command char*login username password \n (Note: default command char is ~)";
+	char loginPrompt[] = "Hello please register using the \n *command char*register username password \n (Note: default command char is ~)";
+	char helpPrompt[] = "[SERVER] Hello here is a list of commands\nplease use the chosen command char\n(Note: default command char is ~)\n";
+	char listOfCommands[] = "\n~register username password\n~login username passeord\n~logout\n~help\n~getlist\nsend username";
 	char invalidPrompt[] = "[SERVER] INVALID COMMAND";
 	char loginErrorPrompt[] = "[SERVER] Please login to send messages to other users.";
 	char defaultPrompt[] = "[SERVER] There was an error with your message, please try again.";
+	char atClientCap[] = "[SERVER] server has reached maximum number of users";
 	int errorCode = SUCCESS;
 
 	readSet = masterSet;
@@ -101,8 +103,6 @@ int Server::Run(ClientHandler& _handel)
 
 		if (readSet.fd_array[i] != sListenSocket)
 		{
-
-
 			int readError = readMessage(readBuffer, 256, readSet.fd_array[i]);
 
 			if (readError == SUCCESS)
@@ -129,6 +129,7 @@ int Server::Run(ClientHandler& _handel)
 				case HELP:
 
 					sendError = sendMessage(helpPrompt, std::strlen(helpPrompt) + 1, readSet.fd_array[i]);
+					sendError = sendMessage(listOfCommands, std::strlen(listOfCommands) + 1, readSet.fd_array[i]);
 
 					break;
 				case INVALID_COMMAND:
@@ -138,7 +139,19 @@ int Server::Run(ClientHandler& _handel)
 					break;
 				case NOT_LOGGED_IN:
 					
-					sendError = sendMessage(loginErrorPrompt, std::strlen(loginErrorPrompt) + 1, readSet.fd_array[i]);
+					char usernameL[256];
+					char passwordL[256];
+
+					if (strncmp(readBuffer, (std::string(&commandChar) + "login").c_str(), strlen(&commandChar) + strlen("login")) != 0)
+					{
+						sendError = sendMessage(loginErrorPrompt, std::strlen(loginErrorPrompt) + 1, readSet.fd_array[i]);
+						break;
+					}
+					else
+					{
+						_handel.ParseRegisterUser(readBuffer, usernameL, passwordL);
+						_handel.LoginUser(sockID, usernameL, passwordL);
+					}
 
 					break;
 
@@ -157,8 +170,20 @@ int Server::Run(ClientHandler& _handel)
 						_handel.ParseRegisterUser(readBuffer, username, password);
 						_handel.RegisterUser(sockID, username, password);
 					}
+					break;
+
+				case GET_LIST:
+
+					SendList(readSet.fd_array[i], writeSet, _handel);
 
 					break;
+
+				case CLIENTCAP:
+
+					sendError = sendMessage(atClientCap, std::strlen(atClientCap), readSet.fd_array[i]);
+
+					break;
+
 				default:
 				
 					sendError = sendMessage(defaultPrompt, std::strlen(defaultPrompt), readSet.fd_array[i]);
@@ -309,6 +334,18 @@ void Server::SetServerSettings(ClientHandler& _handle)
 		commandChar = '~';
 	}
 
+}
+
+void Server::SendList(SOCKET& socket, fd_set& _masterSet, ClientHandler& _handle)
+{
+	char prompt[] = "\nHere is a list of all connected users:";
+	sendMessage(prompt, std::strlen(prompt) + 1, socket);
+
+	for (int i = 0; i < _masterSet.fd_count; i++)
+	{
+		char* name = _handle.GetSocketName(_masterSet.fd_array[i]);
+		sendMessage(name, std::strlen(name) + 1, socket);
+	}
 }
 
 void Server::stop()

@@ -1,42 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\",
+  "WorkspaceRootPath": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\ClientHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|solutionrelative:CNEChatServer\\ClientHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|solutionrelative:CNEChatServer\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|solutionrelative:CNEChatServer\\Server.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|solutionrelative:CNEChatServer\\Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\ChatServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|solutionrelative:CNEChatServer\\ChatServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\ClientHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|solutionrelative:CNEChatServer\\ClientHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\CLientHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\CLientHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|solutionrelative:CNEChatServer\\CLientHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\CNEChatServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|solutionrelative:CNEChatServer\\CNEChatServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|solutionrelative:CNEChatServer\\Server.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\ChatServer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|solutionrelative:CNEChatServer\\ChatServer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\Dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|solutionrelative:CNEChatServer\\Dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\ChatServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7DE1BCE-5502-44FE-A18A-2D78BE5C01A3}|CNEChatServer\\CNEChatServer.vcxproj|solutionrelative:CNEChatServer\\ChatServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,122 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CLientHandler.h",
-              "DocumentMoniker": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\CLientHandler.h",
-              "RelativeDocumentMoniker": "CNEChatServer\\CLientHandler.h",
-              "ToolTip": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\CLientHandler.h",
-              "RelativeToolTip": "CNEChatServer\\CLientHandler.h",
-              "ViewState": "AQIAABAAAAAAAAAAAAAhwCAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-19T03:57:54.993Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientHandler.cpp",
-              "DocumentMoniker": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\CLientHandler.cpp",
-              "RelativeDocumentMoniker": "CNEChatServer\\CLientHandler.cpp",
-              "ToolTip": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\CLientHandler.cpp",
-              "RelativeToolTip": "CNEChatServer\\CLientHandler.cpp",
-              "ViewState": "AQIAACYAAAAAAAAAAADwvx4AAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-19T03:56:50.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Defines.h",
-              "DocumentMoniker": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\Defines.h",
+              "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\Defines.h",
               "RelativeDocumentMoniker": "CNEChatServer\\Defines.h",
-              "ToolTip": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\Defines.h",
+              "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\Defines.h",
               "RelativeToolTip": "CNEChatServer\\Defines.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-19T03:15:27.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ChatServer.h",
-              "DocumentMoniker": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\ChatServer.h",
-              "RelativeDocumentMoniker": "CNEChatServer\\ChatServer.h",
-              "ToolTip": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\ChatServer.h",
-              "RelativeToolTip": "CNEChatServer\\ChatServer.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "DocumentIndex": 3,
+              "Title": "CLientHandler.h",
+              "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\CLientHandler.h",
+              "RelativeDocumentMoniker": "CNEChatServer\\CLientHandler.h",
+              "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\CLientHandler.h",
+              "RelativeToolTip": "CNEChatServer\\CLientHandler.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-19T01:30:39.21Z",
+              "WhenOpened": "2024-03-19T03:57:54.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Dictionary.h",
-              "DocumentMoniker": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\Dictionary.h",
-              "RelativeDocumentMoniker": "CNEChatServer\\Dictionary.h",
-              "ToolTip": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\Dictionary.h",
-              "RelativeToolTip": "CNEChatServer\\Dictionary.h",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAvwB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-25T17:49:03.5Z"
+              "DocumentIndex": 2,
+              "Title": "ClientHandler.cpp",
+              "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\CLientHandler.cpp",
+              "RelativeDocumentMoniker": "CNEChatServer\\CLientHandler.cpp",
+              "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\CLientHandler.cpp",
+              "RelativeToolTip": "CNEChatServer\\CLientHandler.cpp",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-19T03:56:50.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ChatServer.cpp",
-              "DocumentMoniker": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\ChatServer.cpp",
+              "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\ChatServer.cpp",
               "RelativeDocumentMoniker": "CNEChatServer\\ChatServer.cpp",
-              "ToolTip": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\ChatServer.cpp",
+              "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\ChatServer.cpp",
               "RelativeToolTip": "CNEChatServer\\ChatServer.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAEAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADAAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-19T01:31:57.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Server.h",
-              "DocumentMoniker": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.h",
+              "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.h",
               "RelativeDocumentMoniker": "CNEChatServer\\Server.h",
-              "ToolTip": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.h",
+              "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.h",
               "RelativeToolTip": "CNEChatServer\\Server.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-19T01:00:55.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Server.cpp",
-              "DocumentMoniker": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.cpp",
+              "DocumentMoniker": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.cpp",
               "RelativeDocumentMoniker": "CNEChatServer\\Server.cpp",
-              "ToolTip": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.cpp",
+              "ToolTip": "C:\\Users\\sephe\\Desktop\\FS Classes\\Programing\\ComputerNetworks\\CNEProject\\ChatServer\\CNEChatServer\\CNEChatServer\\Server.cpp",
               "RelativeToolTip": "CNEChatServer\\Server.cpp",
-              "ViewState": "AQIAAJYAAAAAAAAAAADwv5wAAAAAAAAA",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAkwLcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-19T01:04:39.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CNEChatServer.cpp",
-              "DocumentMoniker": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\CNEChatServer.cpp",
-              "RelativeDocumentMoniker": "CNEChatServer\\CNEChatServer.cpp",
-              "ToolTip": "C:\\Users\\sephe\\OneDrive\\Desktop\\FS Classes\\Programing\\Computer Networks\\ChatServer\\CNEChatServer\\CNEChatServer\\CNEChatServer.cpp",
-              "RelativeToolTip": "CNEChatServer\\CNEChatServer.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-19T00:34:50.336Z",
               "EditorCaption": ""
             }
           ]

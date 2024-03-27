@@ -14,6 +14,7 @@ public:
 	void SetServerSettings(ClientHandler& _handle);
 	void ClearMasterSetBuffer();
 	void ClearSocketDataHelper(SOCKET socket);
+	void SendList(SOCKET& socket, fd_set& _masterSet, ClientHandler& _handle);
 	void stop();
 
 

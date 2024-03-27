@@ -26,6 +26,8 @@ public:
 	void RegisterUser(int _socketId, const char* _username, const char* _password);
 	int LoginUser(int _socketId, const char* _username, const char* _password);
 	void ParseRegisterUser(const char* message, char* username, char* password);
+	char* GetSocketName(int _id);
+	bool CheckCLientCap();
 
 
 private:
