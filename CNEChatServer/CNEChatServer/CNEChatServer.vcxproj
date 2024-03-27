@@ -137,7 +137,6 @@
     <ClInclude Include="ChatServer.h" />
     <ClInclude Include="CLientHandler.h" />
     <ClInclude Include="Defines.h" />
-    <ClInclude Include="Dictionary.h" />
     <ClInclude Include="Server.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

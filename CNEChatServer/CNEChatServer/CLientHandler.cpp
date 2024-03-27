@@ -37,14 +37,20 @@ int ClientHandler::ParseMessage(char* message, int _id, char _commandChar)
 	//size_t size = strlen(std::string("getlist").insert(0, 1, _commandChar).c_str());
 	//std::cout << "Size: " << size << std::endl;
 
-	if (CheckCLientCap() == false)
-		return CLIENTCAP;
+		
+	
 
 	if (strncmp(message, _commandChar + "help", strlen(_commandChar + "help")) == 0)
 		return HELP;
 
 	if (CheckIfRegistered(_id) == false)
+	{
+		if (CheckCLientCap() == true)
+			return CLIENTCAP;
+
 		return NEW_USER;
+	}
+		
 
 	if (CheckIfLoggedIn(_id) == false)
 		return NOT_LOGGED_IN;
@@ -79,6 +85,10 @@ int ClientHandler::ParseMessage(char* message, int _id, char _commandChar)
 		{
 			return GET_LIST;
 			//code = LOGGED_IN;
+		}
+		else
+		{
+			return INVALID_COMMAND;
 		}
 	}
 
@@ -198,10 +208,37 @@ bool ClientHandler::CheckCLientCap()
 {
 	bool atCap = false;
 
-	if (userTable.bucket_count() < CLIENTCAP)
+	if (userTable.size() >= chatCapacity)
 	{
 		atCap = true;
 	}
 
 	return atCap;
+}
+
+int ClientHandler::GetClientToSend(std::string _name)
+{
+	int clientID = -1;
+
+	for (const auto& pair : userTable) {
+		if (pair.second.username == _name) {
+			clientID = pair.first;
+			break;
+		}
+	}
+
+	return clientID;
+}
+
+bool ClientHandler::LogOutUser(int _id)
+{
+	bool success = false; 
+
+	if (FindUser(_id) != nullptr)
+	{
+		userTable[_id].loggedIn = false;
+		success = true;
+	}
+
+	return success;
 }

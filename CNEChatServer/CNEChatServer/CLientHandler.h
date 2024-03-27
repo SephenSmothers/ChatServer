@@ -28,6 +28,8 @@ public:
 	void ParseRegisterUser(const char* message, char* username, char* password);
 	char* GetSocketName(int _id);
 	bool CheckCLientCap();
+	int GetClientToSend(std::string _name);
+	bool LogOutUser(int _id);
 
 
 private:

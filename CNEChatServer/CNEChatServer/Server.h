@@ -15,6 +15,7 @@ public:
 	void ClearMasterSetBuffer();
 	void ClearSocketDataHelper(SOCKET socket);
 	void SendList(SOCKET& socket, fd_set& _masterSet, ClientHandler& _handle);
+	void SendTo(SOCKET& socket, fd_set& _masterSet, ClientHandler& _handle, char* message);
 	void stop();
 
 

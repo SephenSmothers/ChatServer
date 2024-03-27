@@ -39,18 +39,6 @@ int Server::init(/*uint16_t port*/)
 	if (listen(sListenSocket, 1) == SOCKET_ERROR)
 		return SETUP_ERROR;
 
-	//int len = sizeof(sAddr);
-	//sComSocket = accept(sListenSocket, (SOCKADDR*)&sAddr, &len);
-
-	//if (sComSocket == INVALID_SOCKET)
-	//{
-	//	int error = WSAGetLastError();
-	//	if (error == WSAECONNABORTED || error == WSAECONNRESET || error == WSAESHUTDOWN)
-	//		return SHUTDOWN;
-	//	else
-	//		return CONNECT_ERROR;
-	//}
-
 	return SUCCESS;
 }
 
@@ -124,7 +112,9 @@ int Server::Run(ClientHandler& _handel)
 
 					break;
 				case SEND_TO:
-					//blank for now
+					
+					SendTo(readSet.fd_array[i], writeSet, _handel, readBuffer);
+
 					break;
 				case HELP:
 
@@ -180,13 +170,18 @@ int Server::Run(ClientHandler& _handel)
 
 				case CLIENTCAP:
 
-					sendError = sendMessage(atClientCap, std::strlen(atClientCap), readSet.fd_array[i]);
+					sendError = sendMessage(atClientCap, std::strlen(atClientCap) + 1, readSet.fd_array[i]);
 
 					break;
 
+				case LOG_OUT:
+
+					_handel.LogOutUser(readSet.fd_array[i]);
+
+					break;
 				default:
 				
-					sendError = sendMessage(defaultPrompt, std::strlen(defaultPrompt), readSet.fd_array[i]);
+					sendError = sendMessage(defaultPrompt, std::strlen(defaultPrompt) + 1, readSet.fd_array[i]);
 
 					break;
 				}
@@ -346,6 +341,27 @@ void Server::SendList(SOCKET& socket, fd_set& _masterSet, ClientHandler& _handle
 		char* name = _handle.GetSocketName(_masterSet.fd_array[i]);
 		sendMessage(name, std::strlen(name) + 1, socket);
 	}
+}
+
+void Server::SendTo(SOCKET& socket, fd_set& _masterSet, ClientHandler& _handle, char* message)
+{
+	char sendName[255];
+	char sendMsg[255];
+	char errorMesg[255] = "There was an error sending a message to that user";
+
+	_handle.ParseRegisterUser(message, sendName, sendMsg);
+	int clientId = _handle.GetClientToSend(sendName);
+
+	for (int i = 0; i < _masterSet.fd_count; i++)
+	{
+		if (clientId == _masterSet.fd_array[i])
+		{
+			sendMessage(sendMsg, std::strlen(sendMsg) + 1, _masterSet.fd_array[i]);
+			return;
+		}
+	}
+
+	sendMessage(errorMesg, std::strlen(errorMesg) + 1, socket);
 }
 
 void Server::stop()
