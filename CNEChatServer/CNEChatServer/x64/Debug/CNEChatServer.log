@@ -1,2 +1,29 @@
-﻿  ClientHandler.cpp
-  CNEChatServer.vcxproj -> C:\Users\sephe\Desktop\FS Classes\Programing\ComputerNetworks\CNEProject\ChatServer\CNEChatServer\x64\Debug\CNEChatServer.exe
+﻿  ChatServer.cpp
+  ClientHandler.cpp
+  CNEChatServer.cpp
+  Server.cpp
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(83,71): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(87,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(98,69): warning C4244: 'argument': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(99,16): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(105,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(109,56): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(121,66): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(122,74): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(127,72): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(137,79): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(155,73): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(173,68): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(179,43): warning C4244: 'argument': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(184,72): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(210,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(337,42): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(339,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(341,59): warning C4244: 'argument': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(342,39): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(355,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(359,46): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\CNEChatServer\Server.cpp(364,48): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+  Generating Code...
+  LINK : C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\x64\Debug\CNEChatServer.exe not found or not built by the last incremental link; performing full link
+  CNEChatServer.vcxproj -> C:\Users\sephe\OneDrive\Desktop\FS Classes\Programing\Computer Networks\ChatServer\CNEChatServer\x64\Debug\CNEChatServer.exe
